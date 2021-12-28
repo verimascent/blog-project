@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+- ruby version: 2.7.4p191
+- rails version: 6.1.4.4

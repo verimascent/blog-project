@@ -18,5 +18,9 @@ module Blog
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # The documentation of react-rails recommends to add ts and tsx to the server_renderer_extensions in your application configuration
+    # https://github.com/reactjs/react-rails/blob/854e09d455db0067ee3ae98e444960e7d1b5aaac/README.md#typescript-support
+    config.react.server_renderer_extensions = ["jsx", "js", "tsx", "ts"]
   end
 end
